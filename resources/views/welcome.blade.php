@@ -175,7 +175,7 @@
                 <div class="team__single text-center mb-30 wow fadeInUp" data-wow-delay=".2s">
                     <div class="team__top pos-rel">
                         <div class="team__thumb">
-                            <img src="{{ asset('/img/team/avatar.png') }}" alt="">
+                            <img src="{{ asset('/img/team/abdelhafeez.jpeg') }}" alt="">
                         </div>
                         <ul class="team__social">
                             <li><a href="#"><i class="ti-facebook"></i></a></li>
@@ -213,7 +213,7 @@
                 <div class="team__single text-center mb-30 wow fadeInUp" data-wow-delay=".6s">
                     <div class="team__top pos-rel">
                         <div class="team__thumb">
-                            <img src="{{ asset('/img/team/avatar.png') }}" alt="">
+                            <img src="{{ asset('/img/team/david.jpeg') }}" alt="">
                         </div>
                         <ul class="team__social">
                             <li><a href="#"><i class="ti-facebook"></i></a></li>
@@ -234,7 +234,7 @@
 <!-- team end -->
 
 <!-- brand start -->
-<section class="brand__area brand__2 pt-100">
+{{-- <section class="brand__area brand__2 pt-100">
     <div class="container">
         <div class="sec__title text-center wow fadeInUp" data-wow-delay=".2s">
             <h2>Our Awesome Clients</h2>
@@ -261,7 +261,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- brand end -->
 
 <p><br></p>
