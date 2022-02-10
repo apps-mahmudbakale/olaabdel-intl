@@ -50,7 +50,7 @@ class ContactController extends Controller
                 'message' => $request->message
             ];
 
-            Mail::to('bakale.mahmud@gmail.com')->send(new ContactMail($datas));
+            Mail::to('info@olaabdelintl.ng')->send(new ContactMail($datas));
 
             return back()->with('success', 'Message Sent');
 
