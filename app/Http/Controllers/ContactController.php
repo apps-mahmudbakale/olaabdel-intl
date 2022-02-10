@@ -40,7 +40,23 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        try {
+            
+            $datas = [
+
+                'name' => $request->name,
+                'email' => $request->email,
+                'subject' => $request->subject,
+                'message' => $request->message
+            ];
+
+            Mail::to('bakale.mahmud@gmail.com')->send(new ContactMail($datas));
+
+            return back()->with('success', 'Message Sent');
+
+        } catch (Exception $e) {
+                return back();
+        }
     }
 
     /**

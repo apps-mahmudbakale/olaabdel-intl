@@ -54,7 +54,7 @@
                                    <div class="alert alert-success">{{ Session::get('success') }}</div>
                                    @endif
                                </div>
-                               <form class="comment-form" action="mail.php" method="POST">
+                               <form class="comment-form" action="{{route('contact.store')}}" method="POST">
                                 @csrf
                                    <div class="row">
                                        <div class="col-xl-6 col-lg-6">

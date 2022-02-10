@@ -55,7 +55,7 @@ Route::get('/contact', function () {
 })->name('contact');
 
 
-Route::get('sendmail', [ContactController::class, 'sendmail'])->name('sendmail');
+Route::post('contact', [ContactController::class, 'store'])->name('contact.store');
 
 Route::resource('users', UserController::class);
 Route::resource('messages', ContactController::class);
