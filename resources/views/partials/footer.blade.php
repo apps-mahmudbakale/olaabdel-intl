@@ -7,7 +7,7 @@
                             <div class="footer__widget mb-30">
                                 <div class="about__text">
                                     <h3 class="title">About</h3>
-                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <p style="text-align:left;">OLAABDEL INTERNATIONAL LIMITED is an established indigenous company which was incorporated in 2012.</p>
                                 </div>
                                 <div class="social__icon">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
